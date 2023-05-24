@@ -1,6 +1,6 @@
 # frontend: Angular application
-	- framework angular
-	- observable pattern RxJS
+- framework angular
+- observable pattern RxJS
  
  # run localy
  
