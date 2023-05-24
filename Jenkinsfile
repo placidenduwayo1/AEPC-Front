@@ -4,10 +4,15 @@ pipeline {
         nodejs 'NodeJs'
     }
     stages {
-        stage('NPM install'){
+        stage('NPM installation'){
             steps{
                bat 'npm install'
             }
+        }
+        stage('Angular installation'){
+          steps{
+            bat 'npm install -g @angular/cli'
+          }
         }
         stage('build-frontend'){
             steps{
