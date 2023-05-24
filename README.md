@@ -9,6 +9,6 @@
  - **Angular**: ```npm install -g @angular/cli```
  - go in project folder, in temernal run ```npm install --force``` to install all needed dependecies of the project
  
- ## run project
+ # run project
  - go to project folder
  - open terminal inside de project context and run the project: ```ng serve``` 
