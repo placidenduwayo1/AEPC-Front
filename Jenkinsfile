@@ -16,7 +16,7 @@ pipeline {
         }
         stage('run'){
             steps{
-                bat 'ng s --port=4201'
+                bat 'npm run ng s --port=4201'
             }
         }
     }
