@@ -6,17 +6,17 @@ pipeline {
     stages {
         stage('NPM install'){
             steps{
-               sh 'npm install'
+               bat 'npm install'
             }
         }
         stage('build-frontend'){
             steps{
-                sh 'ng build'
+                bat 'ng build'
             }
         }
         stage('run'){
             steps{
-                sh 'ng s --port=4201'
+                bat 'ng s --port=4201'
             }
         }
     }
