@@ -9,14 +9,9 @@ pipeline {
                bat 'npm install'
             }
         }
-        stage('Angular installation'){
-          steps{
-            bat 'npm install -g @angular/cli'
-          }
-        }
         stage('build-frontend'){
             steps{
-                bat 'ng build'
+                bat 'npm run ng build'
             }
         }
         stage('run'){
