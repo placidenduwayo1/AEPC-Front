@@ -1,7 +1,7 @@
 pipeline {
     agent any //we tell jenkins to use any available agent
     tools {
-        nodejs 'NodeJs'
+        nodejs 'NodeJs-14.20.0'
     }
     stages {
         stage('NPM installation'){
